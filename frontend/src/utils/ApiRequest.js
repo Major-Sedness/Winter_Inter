@@ -1,5 +1,5 @@
 
-const host = "http://localhost:10000";
+const host = "https://winter-intr.onrender.com";
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
 export const loginAPI = `${host}/api/auth/login`;
