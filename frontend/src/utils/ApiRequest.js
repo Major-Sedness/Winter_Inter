@@ -1,5 +1,5 @@
 
-const host = `mongodb+srv://faizan11393:qKL5HIHvMOjncbW2@cluster0.7ffbaxr.mongodb.net/`;
+const host = "http://localhost:10000";
 export const setAvatarAPI = `${host}/api/auth/setAvatar`;
 export const registerAPI = `${host}/api/auth/register`;
 export const loginAPI = `${host}/api/auth/login`;
