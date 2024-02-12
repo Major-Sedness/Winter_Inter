@@ -71,13 +71,13 @@ const Register = () => {
           delete data.user.password;
           localStorage.setItem("user", JSON.stringify(data.user));
           toast.success(data.message, toastOptions);
-          setLoading(true);
+          setLoading(false);
           navigate("/");
         }
         else{
           toast.error(data.message, toastOptions);
-          // console.log("THIS");
-          setLoading(false);
+          console.log("THIS");
+          setLoading(true);
         }
 
     }catch(err){
