@@ -18,9 +18,9 @@ const port = process.env.PORT;
 connectDB();
 
 const allowedOrigins = [
-  "https://main.d1sj7cd70hlter.amplifyapp.com",
-  "https://expense-tracker-app-three-beryl.vercel.app",
-  "https://main--winterinter.netlify.app/"
+  // "https://main.d1sj7cd70hlter.amplifyapp.com",
+  // "https://expense-tracker-app-three-beryl.vercel.app",
+  "https://main--winterinter.netlify.app"
   // add more origins as needed
 ];
 
@@ -41,7 +41,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use(function(req, res, next) {
-  res.header("Access-Control-Allow-Origin", "https://main--winterinter.netlify.app/"); // update to match the domain you will make the request from
+  res.header("Access-Control-Allow-Origin", "https://main--winterinter.netlify.app"); // update to match the domain you will make the request from
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
 });
