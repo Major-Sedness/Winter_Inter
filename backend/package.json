@@ -5,12 +5,11 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-<<<<<<< HEAD
+
     "dev": "nodemon app.js"
-=======
-    "dev": "nodemon app.js",
+
     "build": "npm i"
->>>>>>> 43c8598c29c8a1d7630a1d876e7383ac77cde3fa
+
   },
   "keywords": [],
   "author": "",
